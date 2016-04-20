@@ -40,7 +40,7 @@ shinyUI(pageWithSidebar(
                
       ),
       
-      tabPanel("Documentation",
+      tabPanel("Explanation",
                h4("Application"),
                p("The goal of this application is to create a web interface to the prediction 
                  algorithm that predicts the next possible word when a user is typing a text."),
@@ -48,7 +48,7 @@ shinyUI(pageWithSidebar(
                  input and outputs a prediction of the next word."),
                br(),
                
-               h4("Application Functionality"),
+               h4("Functionality"),
                p("1.Filter the input, remove numbers, punctuation, foreign characters, profanity, single letter words
                  (a, b, c, etc.), and contractions."),
                p("2.Search word matches in the database, display the matched words."),
@@ -56,9 +56,8 @@ shinyUI(pageWithSidebar(
                br(),
                
                h4("Source Code"),
-               p("On GitHub:"),
-               p("fill")
-               
+               p("On GitHub: https://github.com/petesiau/Capstone"),
+               p("")
                
                
                )
